@@ -1,115 +1,115 @@
-{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'poppins', sans-serif;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
 
-    body {
-        position: relative;
-        color: purple;
-        display: flex;
-        height: 140vh;
-        justify-content: center;
-        align-items: center;
-        background-image: linear-gradient(rgba(42, 0, 50, 0.8), rgba(42, 0, 50, 0.8)), url('images.jpeg');
-        padding: 10px;
-        background-position: center;
-        background-size: cover;
-    }
+body {
+    position: relative;
+    color: purple;
+    display: flex;
+    height: 140vh;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(42, 0, 50, 0.8), rgba(42, 0, 50, 0.8)), url('images.jpeg');
+    padding: 10px;
+    background-position: center;
+    background-size: cover;
+}
 
 
-    .container {
-        width: 90%;
-        max-width: 400px;
-        background: white;
-        padding: 25px 30px;
-        border-radius: 25px;
-        background: linear-gradient(135deg);
-    }
+.container {
+    width: 90%;
+    max-width: 400px;
+    background: white;
+    padding: 25px 30px;
+    border-radius: 25px;
+    background: linear-gradient(135deg);
+}
 
-    .container .title {
-        font-size: 25px;
-        font-weight: 500;
-        position: relative;
-        text-align: center;
-        padding: 0 0 20px 0;
-    }
+.container .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
 
-    .container .title::before {
-        content: '';
-        position: absolute;
-        height: 3px;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background: linear-gradient(135deg);
-    }
+.container .title::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(135deg);
+}
 
-    .container .title .form {
-        height: 1px;
+.container .title .form {
+    height: 1px;
 
-    }
+}
 
-    .input-field {
-        background: #eaeaea;
-        margin: 15px 0;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-    }
+.input-field {
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
 
-    .input-field input {
-        width: 100%;
-        background: transparent;
-        border: 0;
-        outline: 0;
-        padding: 18px 15px;
-        cursor: pointer;
-    }
+.input-field input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+    cursor: pointer;
+}
 
-    .input-field i {
-        margin-left: 15px;
-        color: #999;
-    }
+.input-field i {
+    margin-left: 15px;
+    color: #999;
+}
 
-    form p {
-        text-align: left;
-        font-size: 13px;
-    }
+form p {
+    text-align: left;
+    font-size: 13px;
+}
 
-    form p a {
-        text-decoration: none;
-        color: purple;
-    }
+form p a {
+    text-decoration: none;
+    color: purple;
+}
 
-    .media-options {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
+.media-options {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
-    .media-options a {
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 40px;
-        background-color: purple;
-        margin: 10px 0;
-        box-shadow: 0 2px 5px rgba(42, 0, 50, 0.8);
-        border-radius: 40px;
-        color: #eaeaea;
-        text-decoration: none;
-        transition: .5s;
-    }
+.media-options a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: purple;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(42, 0, 50, 0.8);
+    border-radius: 40px;
+    color: #eaeaea;
+    text-decoration: none;
+    transition: .5s;
+}
 
-    .media-options a:hover {
-        background-color: rgba(42, 0, 50, 0.8);
+.media-options a:hover {
+    background-color: rgba(42, 0, 50, 0.8);
 
-    }
+}
 
-    .media-options a span {
-        font-size: 16px;
-        font-weight: 500;
-    }
+.media-options a span {
+    font-size: 16px;
+    font-weight: 500;
+}
